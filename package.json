@@ -1,0 +1,50 @@
+{
+  "name": "thesisline",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p convex/tsconfig.json && tsc -b --noEmit",
+    "dev:convex": "convex dev",
+    "deploy:pilot": "static-hosting upload --build",
+    "format": "prettier --write convex tests src",
+    "format:check": "prettier --check convex tests src"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.66",
+    "@auth/core": "^0.41.3",
+    "@convex-dev/agent": "^0.7.2",
+    "@convex-dev/auth": "^0.0.95",
+    "@convex-dev/rate-limiter": "^0.3.2",
+    "@convex-dev/static-hosting": "^0.2.1",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "ai": "^7.0.99",
+    "convex": "^1.45.0",
+    "convex-helpers": "^0.1.124",
+    "lucide-react": "^1.45.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "convex-test": "^0.0.58",
+    "oxlint": "^1.81.0",
+    "prettier": "^3.9.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
