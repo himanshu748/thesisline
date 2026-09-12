@@ -2,7 +2,9 @@
 
 ThesisLine keeps a research question attached to a company, then tracks the official disclosures that help answer it. Each finding includes an AI reading, exact quotations, a dated source capture and a link to the original company document.
 
-[Open ThesisLine](https://resolute-akita-616.convex.site/) · [Build record](./hackathon.md)
+[Open ThesisLine](https://resolute-akita-616.convex.site/) · [Watch the 1:37 walkthrough](https://drive.google.com/file/d/1dUeHLHe0Lagy2sREmg5PRBxu3pppB1tw/view) · [Source](https://github.com/himanshu748/thesisline) · [Build record](./hackathon.md)
+
+The public app, repository and walkthrough are live. [GitHub Actions passed](https://github.com/himanshu748/thesisline/actions/runs/34685625584) for release commit [`6eac7a7`](https://github.com/himanshu748/thesisline/commit/6eac7a7) on September 12, 2026. The Vibe Apps submission is still pending.
 
 ## Try it
 

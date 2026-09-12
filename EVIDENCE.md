@@ -4,6 +4,8 @@ Verified on September 12, 2026. Test fixtures and local browser checks are separ
 
 | Gate | Evidence |
 | --- | --- |
+| Public launch | The [app](https://resolute-akita-616.convex.site/) and [source repository](https://github.com/himanshu748/thesisline) are public. Release commit: [`6eac7a7`](https://github.com/himanshu748/thesisline/commit/6eac7a7). |
+| Continuous integration | [GitHub Actions run 34685625584](https://github.com/himanshu748/thesisline/actions/runs/34685625584) succeeded for that release commit. |
 | Backend behavior | 62 passing tests cover ownership, private data, immutable snapshots, quotation/date validation, evidence identity, source ranking, failures, scheduling and notification delivery states. |
 | Live source retrieval | An authenticated Infosys question retrieved three official pages, including an earnings-release PDF. Firecrawl and OpenAI were called with configured backend credentials. |
 | Literal provenance | The saved finding's quotation was present in its cited snapshot; SHA-256 hashes matched the captured text. The July 23, 2026 event date has literal date evidence from that document. |
@@ -11,6 +13,8 @@ Verified on September 12, 2026. Test fixtures and local browser checks are separ
 | Real email | A verification code was received and consumed. After explicit opt-in, one research alert was received in the owned test inbox. Test alerts were disabled afterward. |
 | Browser | Normal password sign-in, saved evidence after reload, source dialog with Escape/focus restoration, daily/alert controls, unavailable-link recovery, and the new-question form were checked. The workspace fit 390px without horizontal overflow or page errors. |
 | Public walkthrough | Three fictional timeline states, keyboard interaction, desktop/mobile layouts and reduced motion were checked separately. The example is visibly labelled fictional. |
+| Hosted video | The [captioned 1:37 walkthrough](https://drive.google.com/file/d/1dUeHLHe0Lagy2sREmg5PRBxu3pppB1tw/view) played in a fresh unauthenticated browser. Its Deepgram Aura 2 Thalia synthetic narration was used only for the video. |
+| Submission | A new Vibe Apps submission receipt remains pending. |
 
 Provider logs, raw source text, QA credentials, screenshots and recordings remain in ignored local output folders. No raw credential is required to review the source or run deterministic tests.
 
