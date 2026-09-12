@@ -4,7 +4,7 @@ ThesisLine keeps a research question attached to a company, then tracks the offi
 
 [Open ThesisLine](https://resolute-akita-616.convex.site/) · [Watch the 1:37 walkthrough](https://drive.google.com/file/d/1dUeHLHe0Lagy2sREmg5PRBxu3pppB1tw/view) · [Source](https://github.com/himanshu748/thesisline) · [Build record](./hackathon.md)
 
-The public app, repository and walkthrough are live. [GitHub Actions passed](https://github.com/himanshu748/thesisline/actions/runs/34685625584) for release commit [`6eac7a7`](https://github.com/himanshu748/thesisline/commit/6eac7a7) on September 12, 2026. The Vibe Apps submission is still pending.
+The public app, repository and walkthrough are live. [GitHub Actions passed](https://github.com/himanshu748/thesisline/actions/runs/34685625584) for release commit [`6eac7a7`](https://github.com/himanshu748/thesisline/commit/6eac7a7) on September 12, 2026. The [Vibe Apps entry](https://vibeapps.dev/s/thesisline) was submitted through the All Gas hackathon form on September 12, 2026.
 
 ## Try it
 

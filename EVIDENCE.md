@@ -14,7 +14,8 @@ Verified on September 12, 2026. Test fixtures and local browser checks are separ
 | Browser | Normal password sign-in, saved evidence after reload, source dialog with Escape/focus restoration, daily/alert controls, unavailable-link recovery, and the new-question form were checked. The workspace fit 390px without horizontal overflow or page errors. |
 | Public walkthrough | Three fictional timeline states, keyboard interaction, desktop/mobile layouts and reduced motion were checked separately. The example is visibly labelled fictional. |
 | Hosted video | The [captioned 1:37 walkthrough](https://drive.google.com/file/d/1dUeHLHe0Lagy2sREmg5PRBxu3pppB1tw/view) played in a fresh unauthenticated browser. Its Deepgram Aura 2 Thalia synthetic narration was used only for the video. |
-| Submission | A new Vibe Apps submission receipt remains pending. |
+| Submission | [Public Vibe Apps entry](https://vibeapps.dev/s/thesisline) created through the All Gas submission form on September 12, 2026 at 16:17 IST, showing Himanshu Kumar and AllGasHackathonSubmission. Private judging status was not accessible. |
+| Social launch | [Published X post](https://x.com/jhahimanshu653/status/2098724377948995701) with native 1:37 video and English captions; the submission links to this post. |
 
 Provider logs, raw source text, QA credentials, screenshots and recordings remain in ignored local output folders. No raw credential is required to review the source or run deterministic tests.
 

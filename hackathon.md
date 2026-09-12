@@ -12,7 +12,8 @@ The first release covers Infosys and ITC. Users create a private account, ask a 
 - Repository: [public source](https://github.com/himanshu748/thesisline), release commit [`6eac7a7`](https://github.com/himanshu748/thesisline/commit/6eac7a7).
 - CI: [GitHub Actions run 34685625584](https://github.com/himanshu748/thesisline/actions/runs/34685625584) passed.
 - Video: [public captioned walkthrough, 1:37](https://drive.google.com/file/d/1dUeHLHe0Lagy2sREmg5PRBxu3pppB1tw/view), with anonymous playback verified.
-- Submission: a new Vibe Apps submission receipt remains pending.
+- Submission: [ThesisLine on Vibe Apps](https://vibeapps.dev/s/thesisline), submitted through the All Gas form on September 12, 2026.
+- Launch: [captioned native video post on X](https://x.com/jhahimanshu653/status/2098724377948995701).
 
 ## Built for this event
 
@@ -33,7 +34,7 @@ Firecrawl captures selected official disclosures. A Convex Agent uses OpenAI GPT
 - Desktop/mobile browser checks passed for the public example and authenticated source/reload/control workflow.
 - The public app is deployed and release commit `6eac7a7` is pushed to the public repository. GitHub Actions run `34685625584` succeeded.
 - A 1:37 captioned walkthrough of the deployed app played in a fresh unauthenticated browser. Deepgram Aura 2 Thalia supplied synthetic video narration; it is not part of the app's research pipeline.
-- A new Vibe Apps submission receipt remains pending.
+- The public Vibe Apps entry shows Himanshu Kumar and the AllGasHackathonSubmission tag. The private judging dashboard was not accessible; this verifies the public submission record, not a judging result.
 
 ## Judging fit and remaining evidence
 
@@ -44,7 +45,7 @@ Firecrawl captures selected official disclosures. A Convex Agent uses OpenAI GPT
 | Convex implementation | Auth, live state, indexed ownership queries, transactional writes, scheduled checks and three components. |
 | Sponsor use | Actual Firecrawl, OpenAI and AgentMail calls verified. |
 | Public deployment | Dedicated `.convex.site` app; no invitation or allowlist is required to create an account. |
-| Social proof | The public app and source repository are available. Engagement and independent user feedback are not yet established. |
+| Social proof | The [X launch post](https://x.com/jhahimanshu653/status/2098724377948995701) includes a native captioned walkthrough and working app/repository links. Independent user feedback is not yet established. |
 | Product video | Public captioned 1:37 walkthrough of the deployed app, with anonymous playback verified. |
 
 The official event page lists seven criteria, not eight or nine: https://www.convex.dev/hackathons/all-gas . The event remains open through September 22, 2026 at noon Pacific; rules were checked September 12.
