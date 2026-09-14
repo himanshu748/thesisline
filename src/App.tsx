@@ -118,12 +118,15 @@ function Auth() {
               ? "Save a question. Follow its evidence over time."
               : "Pick up the questions you are following."}
           </p>
-          <form onSubmit={submit}>
+          <form onSubmit={submit} aria-busy={busy}>
             <label>
               Email address
               <input
                 type="email"
                 name="email"
+                aria-invalid={Boolean(error)}
+                aria-describedby={error ? "auth-error" : undefined}
+                onChange={() => setError("")}
                 autoComplete="email"
                 placeholder="you@example.com"
                 required
@@ -135,6 +138,9 @@ function Auth() {
               <input
                 type="password"
                 name="password"
+                aria-invalid={Boolean(error)}
+                aria-describedby={error ? "auth-error" : undefined}
+                onChange={() => setError("")}
                 autoComplete={
                   flow === "signUp" ? "new-password" : "current-password"
                 }
@@ -143,7 +149,7 @@ function Auth() {
                 placeholder="At least 8 characters"
               />
             </label>
-            {error && <Notice>{error}</Notice>}
+            {error && <p id="auth-error" role="alert" className="notice">{error}</p>}
             <Button className="button full" busy={busy}>
               {flow === "signUp" ? "Create your workspace" : "Sign in"}
               <ArrowRight size={16} />

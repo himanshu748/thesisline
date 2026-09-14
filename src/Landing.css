@@ -160,7 +160,7 @@
   right: 22px;
   bottom: 29px;
   font-family: "Newsreader", Georgia, serif;
-  color: #928b77;
+  color: #756e5d;
   font-size: 26px;
   font-style: italic;
 }
@@ -266,7 +266,7 @@
 .tl-event-index {
   font-family: "Newsreader", Georgia, serif;
   font-size: 28px;
-  color: #7b8a8c;
+  color: #566c70;
   font-style: italic;
 }
 .tl-event.is-selected .tl-event-index {
@@ -389,7 +389,7 @@
 .tl-example-caption {
   border-top: 1px solid var(--tl-line);
   font-size: 10px;
-  color: #737971;
+  color: #656d64;
   line-height: 1.6;
   margin: 0;
   padding: 12px 29px;
@@ -424,7 +424,7 @@
   font-family: "Newsreader", Georgia, serif;
   font-size: 20px;
   font-style: italic;
-  color: #788895;
+  color: #566977;
   margin-top: 1px;
 }
 .tl-principle h3 {
@@ -470,7 +470,7 @@
   margin-bottom: 0;
 }
 .tl-coverage dt {
-  color: #616f7a;
+  color: #566570;
 }
 .tl-coverage dd {
   margin: 0;
