@@ -9,6 +9,7 @@ import "@fontsource/newsreader/latin-400.css";
 import "@fontsource/newsreader/latin-400-italic.css";
 import "./index.css";
 import App from "./App.tsx";
+import "./controls.css";
 const convex = new ConvexReactClient(import.meta.env.VITE_CONVEX_URL);
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

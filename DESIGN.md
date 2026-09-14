@@ -8,7 +8,7 @@ A quiet research desk: warm paper, clear editorial typography, and a restrained 
 
 - Background: warm paper `#f8f7f3`.
 - Primary text: ink `#202a36`.
-- Interactive accent: blue `#304d70`.
+- Interactive accent: blue `#465c6c`.
 - Display and quotation face: self-hosted Newsreader.
 - Body and interface face: self-hosted DM Sans.
 - Long text stays at readable line lengths; borders organize source material without heavy card decoration.
@@ -26,3 +26,7 @@ All example events are native buttons with pressed state, visible focus, and des
 ## Ownership
 
 Landing-specific selectors use the `tl-` prefix. The application supplies shared Brand and button primitives, fonts, and workspace styles. Product claims are limited to the approved scope; deployment and real-provider receipts are separate verification artifacts.
+
+## Shared control conventions
+
+Use restrained, low-saturation accents on the existing paper or slate surfaces. Buttons use 4px vertical and 8px horizontal padding, a 4px corner radius, a 6px content gap, and 16px icons. Preserve readable labels and visible keyboard focus. The shared rules live in `controls.css`; illustrations retain their natural dimensions.
