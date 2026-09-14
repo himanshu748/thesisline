@@ -149,7 +149,11 @@ function Auth() {
                 placeholder="At least 8 characters"
               />
             </label>
-            {error && <p id="auth-error" role="alert" className="notice">{error}</p>}
+            {error && (
+              <p id="auth-error" role="alert" className="notice">
+                {error}
+              </p>
+            )}
             <Button className="button full" busy={busy}>
               {flow === "signUp" ? "Create your workspace" : "Sign in"}
               <ArrowRight size={16} />

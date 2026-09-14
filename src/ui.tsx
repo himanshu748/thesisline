@@ -30,8 +30,18 @@ export function Button({
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & { busy?: boolean }) {
   return (
-    <button {...props} aria-busy={busy || undefined} disabled={props.disabled || busy}>
-      {busy && <LoaderCircle data-icon="inline-start" aria-hidden="true" className="spin" />}
+    <button
+      {...props}
+      aria-busy={busy || undefined}
+      disabled={props.disabled || busy}
+    >
+      {busy && (
+        <LoaderCircle
+          data-icon="inline-start"
+          aria-hidden="true"
+          className="spin"
+        />
+      )}
       {children}
     </button>
   );
